@@ -8,8 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
 
 
+@property (weak, nonatomic) IBOutlet UITableView *tblView;
+
+
+
+- (IBAction)startDownload:(id)sender;
+
+- (IBAction)stopDownload:(id)sender;
+
+- (IBAction)start:(id)sender;
+- (IBAction)stop:(id)sender;
+- (IBAction)initializeAll:(id)sender;
 @end
 
